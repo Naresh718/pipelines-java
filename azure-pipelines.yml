@@ -17,9 +17,11 @@ steps:
           "setCloseCode" : true,
           "attributes": {
             "requested_by": {
-              "name": "test user"
+              "name": "Naresh Gotad"
             },
             "start_date": "2023-09-13 08:00:00",
-            "end_date": "2021-09-18 08:00:00"
+            "end_date": "2021-09-18 08:00:00",
+            "short_description": "NBG",
+            "type": "standard"
           }
         }
