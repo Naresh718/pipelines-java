@@ -6,17 +6,20 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: server
 
 steps:
-- task: Maven@3
+- task: ServiceNow-DevOps-Server-Change-Acceleration@1
   inputs:
-    mavenPomFile: 'pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
+    connectedServiceName: 'dev109864-Parts Unlimited-ServiceNow DevOps Service Connection'
+    changeRequestDetails: |
+      {
+          "setCloseCode" : true,
+          "attributes": {
+            "requested_by": {
+              "name": "test user"
+            },
+            "start_date": "2023-09-13 08:00:00",
+            "end_date": "2021-09-18 08:00:00"
+          }
+        }
