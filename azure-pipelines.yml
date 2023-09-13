@@ -23,6 +23,6 @@ steps:
             "end_date": "2021-09-18 08:00:00",
             "short_description": "NBG",
             "type": "standard",
-            "std_change_producer_version": "923504cc47410200e90d87e8dee490e2"
+            "std_change_producer_version": "Reboot Windows Server - 1"
           }
         }
