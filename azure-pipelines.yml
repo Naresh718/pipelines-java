@@ -21,7 +21,8 @@ steps:
             },
             "start_date": "2023-09-13 08:00:00",
             "end_date": "2023-09-18 08:00:00",
-            "std_change_producer_version": "923504cc47410200e90d87e8dee490e2",
-            "devops_change": "true"
+            "std_change_producer_version": "2c4eeab447d57910bf14f7fb136d43da",
+            "devops_change": "true",
+            "type": "standard"
           }
         }
