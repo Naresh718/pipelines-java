@@ -23,6 +23,6 @@ steps:
             "end_date": "2023-09-18 08:00:00",
             "std_change_producer_version": "2c4eeab447d57910bf14f7fb136d43da",
             "devops_change": "true",
-            "type": "standard"
+            "type": "Standard"
           }
         }
